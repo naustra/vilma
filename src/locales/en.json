@@ -1,7 +1,6 @@
 {
   "nav": {
     "home": "Home",
-    "blog": "Blog",
     "contact": "Contact"
   },
   "home": {
@@ -16,10 +15,26 @@
   "booking": {
     "title": "Ready to Start Learning?",
     "description": "Book a free consultation call to discuss your goals and find the perfect learning plan for you.",
-    "cta": "Book Free Consultation"
+    "cta": "Book Free Consultation",
+    "flexibility": {
+      "title": "Flexibility",
+      "description": "Classes scheduled at your convenience"
+    }
   },
   "teaching": {
     "title": "My Teaching Philosophy",
-    "description": "I believe in a personalized approach, focusing on practical communication and building confidence through interactive lessons."
+    "description": "I believe in a personalized approach, focusing on practical communication and building confidence through interactive lessons.",
+    "personalized": {
+      "title": "Personalized Lessons",
+      "description": "Lessons tailored to your level and goals"
+    },
+    "conversation": {
+      "title": "Conversation Focus",
+      "description": "Emphasis on practical language use"
+    },
+    "flexibility": {
+      "title": "Flexibility",
+      "description": "Classes scheduled at your convenience"
+    }
   }
 }

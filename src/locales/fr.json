@@ -1,7 +1,6 @@
 {
   "nav": {
     "home": "Accueil",
-    "blog": "Blog",
     "contact": "Contact"
   },
   "home": {
@@ -16,10 +15,26 @@
   "booking": {
     "title": "Prêt(e) à Commencer l'Apprentissage ?",
     "description": "Réservez une consultation gratuite pour discuter de vos objectifs et trouver le plan d'apprentissage parfait pour vous.",
-    "cta": "Réserver Consultation Gratuite"
+    "cta": "Réserver Consultation Gratuite",
+    "flexibility": {
+      "title": "Flexibilité",
+      "description": "Cours planifiés selon votre convenance"
+    }
   },
   "teaching": {
     "title": "Ma Philosophie d'Enseignement",
-    "description": "Je crois en une approche personnalisée, axée sur la communication pratique et le renforcement de la confiance grâce à des leçons interactives."
+    "description": "Je crois en une approche personnalisée, axée sur la communication pratique et le renforcement de la confiance grâce à des leçons interactives.",
+    "personalized": {
+      "title": "Cours Personnalisés",
+      "description": "Cours adaptés à votre niveau et à vos objectifs"
+    },
+    "conversation": {
+      "title": "Accent sur la Conversation",
+      "description": "Mise en avant de l'utilisation pratique de la langue"
+    },
+    "flexibility": {
+      "title": "Flexibilité",
+      "description": "Cours planifiés selon votre convenance"
+    }
   }
 }

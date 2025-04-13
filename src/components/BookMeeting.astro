@@ -6,7 +6,7 @@ const lang = Astro.currentLocale as Language;
 const t = useTranslations(lang);
 ---
 
-<section class="py-24 bg-gradient-to-br from-mk-red/5 via-white to-mk-yellow/5">
+<section id="contact" class="py-24 bg-gradient-to-br from-mk-red/5 via-white to-mk-yellow/5">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="bg-white rounded-2xl shadow-xl overflow-hidden">
       <div class="md:flex">
@@ -18,8 +18,8 @@ const t = useTranslations(lang);
             {t('booking.description')}
           </p>
           <a
-            href={`/${lang}/contact`}
-            class="inline-flex items-center px-8 py-4 bg-[$mk-red] text-white rounded-lg font-semibold shadow-lg hover:bg-mk-red/90 transition-all transform hover:scale-105 duration-200"
+            href={`https://calendar.app.google/NF1LHe44vKuyAmM96`}
+            class="inline-flex items-center px-8 py-4 bg-mk-red text-white rounded-lg font-semibold shadow-lg hover:bg-mk-red/90 transition-all transform hover:scale-105 duration-200"
           >
             {t('booking.cta')}
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
@@ -34,8 +34,8 @@ const t = useTranslations(lang);
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
-            <p class="text-2xl font-semibold">Флексибилно време</p>
-            <p class="mt-2 text-white/90">Достапни термини во текот на целиот ден</p>
+            <p class="text-2xl font-semibold">{t('booking.flexibility.title')}</p>
+            <p class="mt-2 text-white/90">{t('booking.flexibility.description')}</p>
           </div>
         </div>
       </div>
