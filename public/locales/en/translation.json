@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "Home",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Macedonian Teacher | Professional Teaching",
+    "description": "Professional teacher experienced in teaching in Macedonian, English, and French"
+  },
+  "hero": {
+    "title": "Welcome to my classroom",
+    "subtitle": "Professional teacher passionate about education with multilingual experience",
+    "cta": "Book a lesson"
+  }
+}
