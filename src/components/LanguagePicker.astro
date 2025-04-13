@@ -7,7 +7,9 @@ const languages = [
 ---
 
 <div class="relative inline-block text-left">
+  <label for="language-select" class="sr-only">Choose a language</label>
   <select
+    id="language-select"
     class="block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-mk-red focus:border-mk-red sm:text-sm rounded-md"
     onchange="window.location.href = this.value"
   >
