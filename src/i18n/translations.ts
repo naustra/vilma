@@ -4,7 +4,7 @@ export const languages = {
   fr: "Français",
 };
 
-export const defaultLang = "mk";
+export const defaultLang = "en";
 export type Language = keyof typeof languages;
 
 // This type represents the structure of our translation files
