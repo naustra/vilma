@@ -1,6 +1,6 @@
 ---
-description:
-globs:
+description: 
+globs: 
 alwaysApply: true
 ---
 # Rule Name: astro.mdc
@@ -10,8 +10,8 @@ You are an expert in JavaScript, TypeScript, and Astro framework for scalable we
 
 Key Principles
 - Write concise, technical responses with accurate Astro examples.
-- Leverage Astro's partial hydration and multi-framework support effectively. [Learn More](https://docs.astro.build/en/core-concepts/framework-components/)
-- Prioritize static generation and minimal JavaScript for optimal performance. [Learn More](https://docs.astro.build/en/core-concepts/mpa-vs-spa/)
+- Leverage Astro's partial hydration and multi-framework support effectively. [Learn More](mdc:https:/docs.astro.build/en/core-concepts/framework-components)
+- Prioritize static generation and minimal JavaScript for optimal performance. [Learn More](mdc:https:/docs.astro.build/en/core-concepts/mpa-vs-spa)
 - Use descriptive variable names and follow Astro's naming conventions.
 - Organize files using Astro's file-based routing system.
 
@@ -26,71 +26,71 @@ Astro Project Structure
     - pages/        # Site pages and API endpoints (.astro, .md, .js, etc.)
   - public/         # Files copied directly to the build output (root level)
   - astro.config.mjs # Astro configuration file
-[Learn More](https://docs.astro.build/en/core-concepts/project-structure/)
+[Learn More](mdc:https:/docs.astro.build/en/core-concepts/project-structure)
 
 Component Development
-- Create .astro files for Astro components. [Learn More](https://docs.astro.build/en/core-concepts/astro-components/)
+- Create .astro files for Astro components. [Learn More](mdc:https:/docs.astro.build/en/core-concepts/astro-components)
 - Use framework-specific components (React, Vue, Svelte) when necessary.
 - Implement proper component composition and reusability.
-- Use Astro's component props for data passing. [Learn More](https://docs.astro.build/en/core-concepts/astro-components/#component-props)
-- Leverage Astro's built-in components like `<Markdown />` when appropriate. [Learn More](https://docs.astro.build/en/guides/markdown-content/#the-markdown-component)
+- Use Astro's component props for data passing. [Learn More](mdc:https:/docs.astro.build/en/core-concepts/astro-components/#component-props)
+- Leverage Astro's built-in components like `<Markdown />` when appropriate. [Learn More](mdc:https:/docs.astro.build/en/guides/markdown-content/#the-markdown-component)
 
 Routing and Pages
-- Utilize Astro's file-based routing system in the `src/pages/` directory. [Learn More](https://docs.astro.build/en/core-concepts/routing/)
-- Implement dynamic routes using `[...slug].astro` syntax. [Learn More](https://docs.astro.build/en/core-concepts/routing/#dynamic-routes)
-- Use `getStaticPaths()` for generating static pages with dynamic routes. [Learn More](https://docs.astro.build/en/reference/api-reference/#getstaticpaths)
-- Implement proper 404 handling with a `404.astro` page. [Learn More](https://docs.astro.build/en/core-concepts/routing/#custom-404-error-page)
+- Utilize Astro's file-based routing system in the `src/pages/` directory. [Learn More](mdc:https:/docs.astro.build/en/core-concepts/routing)
+- Implement dynamic routes using `[...slug].astro` syntax. [Learn More](mdc:https:/docs.astro.build/en/core-concepts/routing/#dynamic-routes)
+- Use `getStaticPaths()` for generating static pages with dynamic routes. [Learn More](mdc:https:/docs.astro.build/en/reference/api-reference/#getstaticpaths)
+- Implement proper 404 handling with a `404.astro` page. [Learn More](mdc:https:/docs.astro.build/en/core-concepts/routing/#custom-404-error-page)
 
 Content Management
-- Use Markdown (.md) or MDX (.mdx) files for content-heavy pages. [Learn More](https://docs.astro.build/en/guides/markdown-content/)
-- Leverage Astro's built-in support for frontmatter in Markdown files. [Learn More](https://docs.astro.build/en/guides/markdown-content/#frontmatter)
-- Implement content collections for organized content management. [Learn More](https://docs.astro.build/en/guides/content-collections/)
+- Use Markdown (.md) or MDX (.mdx) files for content-heavy pages. [Learn More](mdc:https:/docs.astro.build/en/guides/markdown-content)
+- Leverage Astro's built-in support for frontmatter in Markdown files. [Learn More](mdc:https:/docs.astro.build/en/guides/markdown-content/#frontmatter)
+- Implement content collections for organized content management. [Learn More](mdc:https:/docs.astro.build/en/guides/content-collections)
 
 Styling
-- Use Astro's scoped styling with `<style>` tags in .astro files. [Learn More](https://docs.astro.build/en/guides/styling/#scoped-styles)
-- Leverage global styles when necessary, importing them in layouts. [Learn More](https://docs.astro.build/en/guides/styling/#global-styles)
-- Utilize CSS preprocessing with Sass or Less if required. [Learn More](https://docs.astro.build/en/guides/styling/#css-preprocessors)
+- Use Astro's scoped styling with `<style>` tags in .astro files. [Learn More](mdc:https:/docs.astro.build/en/guides/styling/#scoped-styles)
+- Leverage global styles when necessary, importing them in layouts. [Learn More](mdc:https:/docs.astro.build/en/guides/styling/#global-styles)
+- Utilize CSS preprocessing with Sass or Less if required. [Learn More](mdc:https:/docs.astro.build/en/guides/styling/#css-preprocessors)
 - Implement responsive design using CSS custom properties and media queries.
 
 Performance Optimization
 - Minimize use of client-side JavaScript; leverage Astro's static generation.
-- Use the `client:*` directives judiciously for partial hydration: [Learn More](https://docs.astro.build/en/reference/directives-reference/#client-directives)
+- Use the `client:*` directives judiciously for partial hydration: [Learn More](mdc:https:/docs.astro.build/en/reference/directives-reference/#client-directives)
   - `client:load` for immediately needed interactivity
   - `client:idle` for non-critical interactivity
   - `client:visible` for components that should hydrate when visible
 - Implement proper lazy loading for images and other assets.
-- Utilize Astro's built-in asset optimization features. [Learn More](https://docs.astro.build/en/guides/assets/)
+- Utilize Astro's built-in asset optimization features. [Learn More](mdc:https:/docs.astro.build/en/guides/assets)
 
 Data Fetching
 - Use `Astro.props` for passing data to components.
 - Implement `getStaticPaths()` for fetching data at build time.
-- Use Vite's `import.meta.glob()` for importing multiple local files using glob patterns. (`Astro.glob()` is deprecated in v5). [Learn More](https://docs.astro.build/en/guides/imports/#importmetaglob)
+- Use Vite's `import.meta.glob()` for importing multiple local  glob patterns. [Learn More](https://docs.astro.build/en/guides/imports/#importmetaglob)
 - Implement proper error handling for data fetching operations.
 
 SEO and Meta Tags
-- Use Astro's `<head>` tag for adding meta information. [Learn More](https://docs.astro.build/en/core-concepts/astro-components/#html-tags)
+- Use Astro's `<head>` tag for adding meta information. [Learn More](mdc:https:/docs.astro.build/en/core-concepts/astro-components/#html-tags)
 - Implement canonical URLs for proper SEO.
 - Use the `<SEO>` component pattern for reusable SEO setups.
 
 Integrations and Plugins
-- Utilize Astro integrations for extending functionality (e.g., `@astrojs/mdx`, `@astrojs/sitemap`). [Learn More](https://docs.astro.build/en/guides/integrations-guide/)
+- Utilize Astro integrations for extending functionality (e.g., `@astrojs/image`). [Learn More](mdc:https:/docs.astro.build/en/guides/integrations-guide)
 - Implement proper configuration for integrations in `astro.config.mjs`.
 - Use Astro's official integrations when available for better compatibility.
 
 Build and Deployment
-- Optimize the build process using Astro's build command. [Learn More](https://docs.astro.build/en/reference/cli-reference/#astro-build)
-- Implement proper environment variable handling for different environments. [Learn More](https://docs.astro.build/en/guides/environment-variables/)
-- Use static hosting platforms compatible with Astro (Netlify, Vercel, etc.). [Learn More](https://docs.astro.build/en/guides/deploy/)
+- Optimize the build process using Astro's build command. [Learn More](mdc:https:/docs.astro.build/en/reference/cli-reference/#astro-build)
+- Implement proper environment variable handling for different environments. [Learn More](mdc:https:/docs.astro.build/en/guides/environment-variables)
+- Use static hosting platforms compatible with Astro (Netlify, Vercel, etc.). [Learn More](mdc:https:/docs.astro.build/en/guides/deploy)
 - Implement proper CI/CD pipelines for automated builds and deployments.
 
-Integrate Tailwind CSS with Astro.
- - For **Tailwind v4 (preview/alpha)**: Use the official Tailwind Vite plugin (`tailwindcss/vite`). [Learn More](https://tailwindcss.com/docs/installation/framework-guides/astro)
+Styling with Tailwind CSS
+- Integrate Tailwind CSS with Astro using `@astrojs/tailwind`. [Learn More](mdc:https:/docs.astro.build/en/guides/integrations-guide/tailwind)
 
 Tailwind CSS Best Practices
 - Use Tailwind utility classes extensively in your Astro components.
-- Leverage Tailwind's responsive design utilities (`sm:`, `md:`, `lg:`, etc.). [Learn More](https://tailwindcss.com/docs/responsive-design)
+- Leverage Tailwind's responsive design utilities (`sm:`, `md:`, `lg:`, etc.). [Learn More](mdc:https:/tailwindcss.com/docs/responsive-design)
 - Utilize Tailwind's color palette and spacing scale for consistency.
-- Implement custom theme extensions in `tailwind.config.cjs` (or `.js`/`.ts`) when necessary. [Learn More](https://tailwindcss.com/docs/theme#extending-the-default-theme)
+- Implement custom theme extensions in `tailwind.config.cjs` when necessary. [Learn More](mdc:https:/tailwindcss.com/docs/theme#extending-the-default-theme)
 - **Never** use the `@apply` directive.
 
 Testing
@@ -105,10 +105,10 @@ Accessibility
 
 Key Conventions
 1. Follow Astro's Style Guide for consistent code formatting.
-2. Use TypeScript for enhanced type safety and developer experience. [Learn More](https://docs.astro.build/en/guides/typescript/)
+2. Use TypeScript for enhanced type safety and developer experience. [Learn More](mdc:https:/docs.astro.build/en/guides/typescript)
 3. Implement proper error handling and logging.
-4. Leverage Astro's RSS feed generation for content-heavy sites. [Learn More](https://docs.astro.build/en/guides/rss/)
-5. **Use Astro's built-in `<Image />` component and `astro:assets` for optimized image handling.** [Learn More](https://docs.astro.build/en/guides/images/)
+4. Leverage Astro's RSS feed generation for content-heavy sites. [Learn More](mdc:https:/docs.astro.build/en/guides/rss)
+5. Use Astro's Image component for optimized image delivery. [Learn More](mdc:https:/docs.astro.build/en/guides/images)
 
 Performance Metrics
 - Prioritize Core Web Vitals (LCP, FID, CLS) in development.
