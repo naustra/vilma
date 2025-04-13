@@ -7,7 +7,7 @@ const t = useTranslations(lang);
 ---
 
 <section class="relative bg-gradient-to-br from-mk-red via-mk-red to-mk-yellow py-32">
-  <div class="absolute inset-0 bg-[url('/hero-pattern.svg')] opacity-10"></div>
+  <div class="absolute inset-0 opacity-10"></div>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
     <div class="md:flex md:items-center md:justify-between">
       <div class="md:w-1/2 text-white">
@@ -32,7 +32,7 @@ const t = useTranslations(lang);
       <div class="mt-12 md:mt-0 md:w-1/2 md:pl-12">
         <div class="relative aspect-video rounded-xl overflow-hidden shadow-2xl transform md:translate-y-6">
           <img
-            src="/vilma.jpg"
+            src={import.meta.env.BASE_URL + '/vilma.jpg'}
             alt="Vilma"
             class="w-full h-full object-cover"
           />

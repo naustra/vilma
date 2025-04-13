@@ -6,6 +6,11 @@ export default defineConfig({
   base: "vilma",
   vite: {
     plugins: [tailwindcss()],
+    resolve: {
+      alias: {
+        "@": "/src",
+      },
+    },
   },
   i18n: {
     defaultLocale: "en",
