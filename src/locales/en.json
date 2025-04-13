@@ -12,5 +12,14 @@
     "title": "Welcome to my classroom",
     "subtitle": "Professional teacher passionate about education with multilingual experience",
     "cta": "Book a lesson"
+  },
+  "booking": {
+    "title": "Ready to Start Learning?",
+    "description": "Book a free consultation call to discuss your goals and find the perfect learning plan for you.",
+    "cta": "Book Free Consultation"
+  },
+  "teaching": {
+    "title": "My Teaching Philosophy",
+    "description": "I believe in a personalized approach, focusing on practical communication and building confidence through interactive lessons."
   }
 }

@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+  --color-mk-red: #d20000;
+  --color-mk-yellow: #ffe600;
+}

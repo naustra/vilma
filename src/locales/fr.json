@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Professeure de Macédonien | Enseignement Professionnel",
+    "description": "Professeure professionnelle expérimentée dans l'enseignement en macédonien, anglais et français"
+  },
+  "hero": {
+    "title": "Bienvenue dans ma classe",
+    "subtitle": "Professeure professionnelle passionnée par l'éducation avec une expérience multilingue",
+    "cta": "Réserver un cours"
+  },
+  "booking": {
+    "title": "Prêt(e) à Commencer l'Apprentissage ?",
+    "description": "Réservez une consultation gratuite pour discuter de vos objectifs et trouver le plan d'apprentissage parfait pour vous.",
+    "cta": "Réserver Consultation Gratuite"
+  },
+  "teaching": {
+    "title": "Ma Philosophie d'Enseignement",
+    "description": "Je crois en une approche personnalisée, axée sur la communication pratique et le renforcement de la confiance grâce à des leçons interactives."
+  }
+}

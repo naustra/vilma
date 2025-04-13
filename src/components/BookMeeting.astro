@@ -1,7 +1,8 @@
 ---
-import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { useTranslations } from '../i18n';
+import type { Language } from '../i18n';
 
-const lang = getLangFromUrl(Astro.url);
+const lang = Astro.currentLocale as Language;
 const t = useTranslations(lang);
 ---
 
@@ -18,7 +19,7 @@ const t = useTranslations(lang);
           </p>
           <a
             href={`/${lang}/contact`}
-            class="inline-flex items-center px-8 py-4 bg-mk-red text-white rounded-lg font-semibold shadow-lg hover:bg-mk-red/90 transition-all transform hover:scale-105 duration-200"
+            class="inline-flex items-center px-8 py-4 bg-[$mk-red] text-white rounded-lg font-semibold shadow-lg hover:bg-mk-red/90 transition-all transform hover:scale-105 duration-200"
           >
             {t('booking.cta')}
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">

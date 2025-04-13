@@ -9,11 +9,11 @@ const languages = [
 <div class="relative inline-block text-left">
   <select
     class="block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-mk-red focus:border-mk-red sm:text-sm rounded-md"
-    onChange="window.location.href = this.value"
+    onchange="window.location.href = this.value"
   >
     {languages.map((lang) => (
       <option
-        value={`/${lang.code === 'mk' ? '' : lang.code}`}
+        value={`/${lang.code}`}
         selected={Astro.currentLocale === lang.code}
       >
         {lang.name}
