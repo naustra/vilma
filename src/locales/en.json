@@ -4,12 +4,12 @@
     "contact": "Contact"
   },
   "home": {
-    "title": "Macedonian Teacher | Professional Teaching",
-    "description": "Professional teacher experienced in teaching in Macedonian, English, and French"
+    "title": "Learn Macedonian with Vilma | Your Friendly Tutor",
+    "description": "Learn Macedonian effectively with Vilma, your friendly and experienced tutor. Personalized lessons focusing on practical conversation and cultural connection."
   },
   "hero": {
-    "title": "Welcome to my classroom",
-    "subtitle": "Professional teacher passionate about education with multilingual experience",
+    "title": "Learn Macedonian with Vilma",
+    "subtitle": "Your friendly, experienced tutor for mastering practical conversation, connecting with your heritage, and understanding Macedonian culture.",
     "cta": "Book a lesson"
   },
   "booking": {
@@ -23,14 +23,14 @@
   },
   "teaching": {
     "title": "My Teaching Philosophy",
-    "description": "I believe in a personalized approach, focusing on practical communication and building confidence through interactive lessons.",
+    "description": "Learn Macedonian effectively with a friendly, experienced tutor dedicated to your success. My approach focuses on:",
     "personalized": {
       "title": "Personalized Lessons",
-      "description": "Lessons tailored to your level and goals"
+      "description": "Lessons fully adapted to your pace, level, and personal goals – whether you're connecting with your family heritage, preparing for a trip, or aiming for fluency."
     },
     "conversation": {
       "title": "Conversation Focus",
-      "description": "Emphasis on practical language use"
+      "description": "Master practical, everyday conversation for travel or living in Macedonia. We'll build your confidence through engaging dialogue, supported by clear explanations of grammar essentials."
     },
     "flexibility": {
       "title": "Flexibility",

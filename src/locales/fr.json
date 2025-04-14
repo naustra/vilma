@@ -4,12 +4,12 @@
     "contact": "Contact"
   },
   "home": {
-    "title": "Professeure de Macédonien | Enseignement Professionnel",
-    "description": "Professeure professionnelle expérimentée dans l'enseignement en macédonien, anglais et français"
+    "title": "Apprenez le Macédonien avec Vilma | Votre Tutrice Conviviale",
+    "description": "Apprenez le macédonien efficacement avec Vilma, votre tutrice expérimentée et conviviale. Cours personnalisés axés sur la conversation pratique et le lien culturel."
   },
   "hero": {
-    "title": "Bienvenue dans ma classe",
-    "subtitle": "Professeure professionnelle passionnée par l'éducation avec une expérience multilingue",
+    "title": "Apprenez le macédonien avec Vilma",
+    "subtitle": "Votre tutrice expérimentée et conviviale pour maîtriser la conversation pratique, renouer avec votre héritage et comprendre la culture macédonienne.",
     "cta": "Réserver un cours"
   },
   "booking": {
@@ -23,14 +23,14 @@
   },
   "teaching": {
     "title": "Ma Philosophie d'Enseignement",
-    "description": "Je crois en une approche personnalisée, axée sur la communication pratique et le renforcement de la confiance grâce à des leçons interactives.",
+    "description": "Apprenez le macédonien efficacement avec une tutrice expérimentée et conviviale, dédiée à votre succès. Mon approche se concentre sur :",
     "personalized": {
       "title": "Cours Personnalisés",
-      "description": "Cours adaptés à votre niveau et à vos objectifs"
+      "description": "Des cours entièrement adaptés à votre rythme, votre niveau et vos objectifs personnels – que ce soit pour renouer avec votre héritage familial, préparer un voyage ou viser la fluidité."
     },
     "conversation": {
       "title": "Accent sur la Conversation",
-      "description": "Mise en avant de l'utilisation pratique de la langue"
+      "description": "Maîtrisez la conversation pratique et quotidienne pour voyager ou vivre en Macédoine. Nous renforcerons votre confiance par un dialogue engageant, soutenu par des explications claires des points essentiels de grammaire."
     },
     "flexibility": {
       "title": "Flexibilité",
