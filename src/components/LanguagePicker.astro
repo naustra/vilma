@@ -15,7 +15,7 @@ const languages = [
   >
     {languages.map((lang) => (
       <option
-        value={`${import.meta.env.BASE_URL}/${lang.code}`}
+        value={`/${lang.code}`}
         selected={Astro.currentLocale === lang.code}
       >
         {lang.name}
