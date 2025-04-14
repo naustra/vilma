@@ -23,6 +23,15 @@ const { title, description } = Astro.props;
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     <meta name="keywords" content="macedonian teacher, professeur macédonien, македонски наставник" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LXBSMK5VZM"></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-LXBSMK5VZM');
+    </script>
   </head>
   <body class="min-h-screen bg-gray-50">
     <header class="bg-white shadow-sm">
