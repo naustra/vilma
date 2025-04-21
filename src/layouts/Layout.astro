@@ -18,11 +18,27 @@ const { title, description } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href={"/favicon.svg"} />
+    <link rel="icon" type="image/svg+xml" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" type="image/svg+xml" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="/logo.png" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     <meta name="keywords" content="macedonian teacher, professeur macédonien, македонски наставник" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:image" content="/logo.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content={title} />
+    {description && <meta property="twitter:description" content={description} />}
+    <meta property="twitter:image" content="/logo.png" />
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LXBSMK5VZM"></script>
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="216d829b-93a5-4502-956b-e36e9014ad0d" type="text/javascript" async></script>
