@@ -1,0 +1,24 @@
+{
+  "name": "Vilma - Macedonian Teacher",
+  "short_name": "Vilma",
+  "icons": [
+    {
+      "src": "/logo-16x16.svg",
+      "sizes": "16x16",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/logo-32x32.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/logo-180x180.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#D20000",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
