@@ -1,7 +1,7 @@
-import { redirectToDefaultLocale, pathHasLocale } from "astro:i18n";
+import { defineMiddleware } from "astro:middleware";
 
 // function available with `manual` routing
-import { defineMiddleware } from "astro:middleware";
+import { redirectToDefaultLocale, pathHasLocale } from "astro:i18n";
 
 export const onRequest = defineMiddleware(async (ctx, next) => {
   if (!pathHasLocale(ctx.url.pathname)) {
