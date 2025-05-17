@@ -6,7 +6,7 @@ export default defineConfig({
   site: "https://macedonianwithvilma.com",
   integrations: [partytown()],
   redirects: {
-    "/": "/en",
+    "/": "/en/",
   },
   vite: {
     plugins: [tailwindcss()],
