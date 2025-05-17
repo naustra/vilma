@@ -4,6 +4,8 @@ import { redirectToDefaultLocale, pathHasLocale } from "astro:i18n";
 import { defineMiddleware } from "astro:middleware";
 
 export const onRequest = defineMiddleware(async (ctx, next) => {
+  console.log("🚀 ~ onRequest ~ ctx:", ctx);
+  console.log("🚀 ~ onRequest ~ ctx:", ctx.url);
   if (ctx.url.pathname !== "/") {
     if (!pathHasLocale(ctx.url.pathname)) {
       const redirectResponse = redirectToDefaultLocale(ctx, 302);
