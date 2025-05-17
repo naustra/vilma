@@ -1,7 +1,7 @@
 ---
 import { useTranslations, type Language } from '../i18n';
+// This does not work. Don't know why. Maybe get url from Astro.url.pathname instead of Astro.currentLocale
 const lang = Astro.currentLocale as Language;
-console.log("🚀 ~ lang:", lang)
 
 const t = useTranslations(lang);
 ---
