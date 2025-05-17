@@ -1,4 +1,8 @@
 {
+  "404": {
+    "title": "404 - Page Non Trouvée",
+    "description": "La page que vous cherchez n'existe pas."
+  },
   "nav": {
     "home": "Accueil",
     "contact": "Contact"

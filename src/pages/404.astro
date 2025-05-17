@@ -1,0 +1,19 @@
+---
+
+const { lang } = Astro.params as { lang: Language };
+
+import { useTranslations, type Language } from '../i18n';
+
+const t = useTranslations(lang);
+---
+
+<html lang={lang}>
+  <head>
+    <title>{t("404.title")}</title>
+  </head>
+  <body>
+    <h1>{t("404.title")}</h1>
+    <p>{t("404.description")}</p>
+    <a href="/{lang}/">{t("nav.home")}</a>
+  </body>
+</html>
