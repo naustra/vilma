@@ -7,14 +7,13 @@ export function getStaticPaths() {
   ];
 }
 
-const { lang } = Astro.params as { lang: Language };
-
 import Layout from '../../layouts/Layout.astro';
 import Hero from '../../components/Hero.astro';
 import TeachingPhilosophy from '../../components/TeachingPhilosophy.astro';
 import BookMeeting from '../../components/BookMeeting.astro';
 import { useTranslations, type Language } from '../../i18n';
 
+const lang = Astro.currentLocale as Language;
 const t = useTranslations(lang);
 
 const title = t('home.title');

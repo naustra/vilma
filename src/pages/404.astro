@@ -1,8 +1,6 @@
 ---
-
-const { lang } = Astro.params as { lang: Language };
-
 import { useTranslations, type Language } from '../i18n';
+const lang = Astro.currentLocale as Language;
 
 const t = useTranslations(lang);
 ---
