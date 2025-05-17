@@ -8,6 +8,7 @@ const t = useTranslations(lang);
 <html lang={lang}>
   <head>
     <title>{t("404.title")}</title>
+    <meta http-equiv="refresh" content={`0;url=/${lang || "en"}/`} />
   </head>
   <body>
     <h1>{t("404.title")}</h1>
