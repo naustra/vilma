@@ -1,6 +1,7 @@
 ---
 import { useTranslations, type Language } from '../i18n';
 const lang = Astro.currentLocale as Language;
+console.log("🚀 ~ lang:", lang)
 
 const t = useTranslations(lang);
 ---
